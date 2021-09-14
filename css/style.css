@@ -14,6 +14,23 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+/* global styles */
+.btn-pink{
+  color: var(--mainPink);
+  border-color: var(--mainPink);
+}
+.btn-pink:hover{
+  color: var(--mainPink);
+  background: var(--mainBlack);
+}
+.btn-black{
+  color: var(--mainBlack);
+  border-color: var(--mainBlack);
+}
+.btn-black:hover{
+  color: var(--mainPink);
+  background: var(--mainBlack);
+}
 /* nav links */
 .navbar-toggler{
   outline: none !important;
@@ -56,3 +73,52 @@ body {
 .cart-info:hover .cart-info__icon{
   color: var(--mainWhite);
 }
+.max-height{
+  min-height: calc(100vh - 68px);
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)), url("../img/headerBcg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.banner{
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+.banner-title{
+  color: var(--mainPink);
+  font-size: 4rem;
+}
+.banner-link{
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  border: 0.2rem solid var(--mainBlack);
+}
+.banner-link:hover{
+  background: var(--mainBlack);
+  color: var(--mainPink);
+}
+/* about section */
+.about-img__container{
+  position: relative;
+}
+.about-img__container::before{
+  content: '';
+  position: absolute;
+  top: -1.5rem;
+  left: -1.7rem;
+  width: 100%;
+  height: 100%;
+  outline: 0.5rem solid var(--mainYellow);
+  z-index: -1;
+  transition: all 500ms ease-in;
+}
+.about-img__container:hover::before {
+  top: 0;
+  left: 0;
+}
+
+/*
+  Designed By Md Rifat Sarker.
+*/
