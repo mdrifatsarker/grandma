@@ -30,6 +30,11 @@ body {
 .nav-link:hover{
   color: var(--mainBlack);
 }
+/* phone icon */
+.nav-info a{
+  color: var(--mainBlack);
+  text-decoration: none;
+}
 /* cart-style */
 .cart-info__icon{
   color: var(--mainBlack);
