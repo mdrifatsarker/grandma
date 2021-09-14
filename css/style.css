@@ -14,3 +14,40 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+/* nav links */
+.navbar-toggler{
+  outline: none !important;
+}
+.toggler-icon{
+  font-size: 2.5rem;
+  color: var(--mainPink);
+}
+.nav-link{
+  color: var(--mainPink);
+  font-size: 1.5rem;
+  transition: all 1s ease-in-out;
+}
+.nav-link:hover{
+  color: var(--mainBlack);
+}
+/* cart-style */
+.cart-info__icon{
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+.cart-info{
+  border: 0.1rem solid var(--mainBlack);
+  color: var(--mainBlack);
+  border-radius: .25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+.cart-info:hover{
+  background: var(--mainPink);
+  color: var(--mainWhite);
+  border-color: var(--mainPink);
+}
+.cart-info:hover .cart-info__icon{
+  color: var(--mainWhite);
+}
