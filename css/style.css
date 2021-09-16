@@ -164,6 +164,18 @@ body {
   top: 0;
   left: 0;
 }
+/* services section */
+.services{
+  color: var(--mainWhite);
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('../img/servicesBcg.jpeg')center/cover fixed no-repeat;
+}
+.service-title{
+  letter-spacing: 0.8rem;
+}
+.service-text{
+  letter-spacing: 0.06rem;
+  word-spacing: 0.5rem;
+}
 
 /*
   Designed By Md Rifat Sarker.
